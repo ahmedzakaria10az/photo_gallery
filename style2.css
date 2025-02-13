@@ -1,0 +1,39 @@
+/* exercise 2 */
+body {
+    justify-content: center;
+  }
+  #gallery {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+    #galleryItem {
+    overflow: hidden;
+    justify-content: center;
+
+    transition: transform 0.3s ease-in-out;
+  }
+    #galleryItem {
+    width: 400px; 
+    height: 400px; 
+    transition: transform 0.3s ease-in-out;
+    }
+  #galleryItem:hover img {
+    transform: scale(0.7); 
+  }
+
+
+
+/* exercise 3 */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  #col {
+    column-count: 4; 
+    column-rule: 2px solid red; 
+    text-align: justify;
+  }
+
+
